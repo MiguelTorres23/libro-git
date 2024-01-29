@@ -28,9 +28,15 @@ git push origin master
 **Colabora en el repositorio remoto de otro compañero. Clona su repositorio. Añade el fichero autores.txt que contenga tu nombre y tu correo electrónico. Haz un commit y sube los cambios al repositorio remoto de tu compañero.**
 
 ```bash
-git clone "URL del repositorio del compañero
+git clone "https://github.com/raquetm/libro-git.git"
+Clonando en 'libro-git'...
+remote: Enumerating objects: 37, done.
+remote: Counting objects: 100% (37/37), done.
+remote: Compressing objects: 100% (24/24), done.
+remote: Total 37 (delta 4), reused 37 (delta 4), pack-reused 0
+Desempaquetando objetos: 100% (37/37), 4.38 KiB | 224.00 KiB/s, listo.
 
-cd "nombre que tenga el repositorio"
+cd "nombre que tenga el repositorio"           
 ```
 
 ### Resolviendo conflictos
