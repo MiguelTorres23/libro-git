@@ -8,14 +8,18 @@
 **Crea un repositorio en GitHub con el nombre libro-git. Añádelo como url remota en nuestro repositorio local de libro creado en el ejercicio anterior.**
 
 ```bash
+git remote add origin https://github.com/MiguelTorres23/libro-git.git
 
+git push -u origin master
 
 ```
 
 **Añade todo lo que tenemos que el repositorio libro al repositorio remoto y comprueba que los cambios están subidos correctamente.**
 
 ```bash
-
+git add .
+git commit -m 
+git push origin master
 
 ```
 
@@ -24,14 +28,16 @@
 **Colabora en el repositorio remoto de otro compañero. Clona su repositorio. Añade el fichero autores.txt que contenga tu nombre y tu correo electrónico. Haz un commit y sube los cambios al repositorio remoto de tu compañero.**
 
 ```bash
+git clone "URL del repositorio del compañero
 
-
+cd "nombre que tenga el repositorio"
 ```
 
 ### Resolviendo conflictos
 
 **Cuando un compañero/a haya realizado el paso anterior en tu repositorio remoto, sincroníza tu repositorio en local. El resultado debe ser que en local debes tener ese fichero autores.txt.**
 ```bash
+git pull origin master
 
 
 ```
@@ -45,11 +51,14 @@
 *Ana Pérez*
 
 ```bash
-
-
+git add autores.txt
+git commit -m
+git push origin master
 ```
 
 **Al mismo tiempo, avisa a tu compañero/a para que, en su repositorio local, vuelva a modificar el fichero autores.txt añdiendo tu nombre en un línea nueva, la fecha y la hora así como el lugar donde se realiza el ejercicio. Una vez modificado, debe subir los cambios a remoto.**
+
+
 
 *Por ejemplo. Fichero autores.txt en repositorio local del colaborador del repositorio remoto:*
 
