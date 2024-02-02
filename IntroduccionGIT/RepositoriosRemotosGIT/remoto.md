@@ -9,9 +9,7 @@
 
 ```bash
 git remote add origin https://github.com/MiguelTorres23/libro-git.git
-
 git push -u origin master
-
 ```
 
 **Añade todo lo que tenemos que el repositorio libro al repositorio remoto y comprueba que los cambios están subidos correctamente.**
@@ -44,8 +42,6 @@ cd "nombre que tenga el repositorio"
 **Cuando un compañero/a haya realizado el paso anterior en tu repositorio remoto, sincroníza tu repositorio en local. El resultado debe ser que en local debes tener ese fichero autores.txt.**
 ```bash
 git pull origin master
-
-
 ```
 
 **Modifica ese fichero, cambiando el nombre de tu compañero/a por el tuyo y añadiendo la fecha y la hora donde lo realizas. Sube los cambios al repositorio remoto.**
@@ -64,22 +60,9 @@ git push origin master
 
 **Al mismo tiempo, avisa a tu compañero/a para que, en su repositorio local, vuelva a modificar el fichero autores.txt añdiendo tu nombre en un línea nueva, la fecha y la hora así como el lugar donde se realiza el ejercicio. Una vez modificado, debe subir los cambios a remoto.**
 
-
-
-*Por ejemplo. Fichero autores.txt en repositorio local del colaborador del repositorio remoto:*
-
-*Sabela Sobrino*
-
-*Ana Pérez*
-
 ```bash
-
-
-```
-
-**Resolver los conflictos que se puedan producir en ambos repositorios.**
-
-```bash
-
-
+git add autores.txt
+git commit -m "Miguel Angel Torres, 02/02/2024, 11:36, libro autores.txt"
+git push origin https://github.com/MiguelTorres23/libro-git.git
+git pull origin https://github.com/MiguelTorres23/libro-git.git
 ```
