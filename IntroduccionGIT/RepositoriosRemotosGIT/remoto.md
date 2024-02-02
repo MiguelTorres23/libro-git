@@ -18,7 +18,6 @@ git push -u origin master
 git add .
 git commit -m 
 git push origin master
-
 ```
 
 ### Colaborando con repositorios
@@ -33,8 +32,7 @@ remote: Counting objects: 100% (37/37), done.
 remote: Compressing objects: 100% (24/24), done.
 remote: Total 37 (delta 4), reused 37 (delta 4), pack-reused 0
 Desempaquetando objetos: 100% (37/37), 4.38 KiB | 224.00 KiB/s, listo.
-
-cd "nombre que tenga el repositorio"           
+        
 ```
 
 ### Resolviendo conflictos
